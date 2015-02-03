@@ -1,0 +1,13 @@
+fixtures:
+  forge_modules:
+    stdlib:
+      repo: "puppetlabs/stdlib"
+      ref: "4.3.2"
+    wget:
+      repo: "maestrodev/wget"
+      ref: "1.5.5"
+    git:
+      repo: "puppetlabs/git"
+      ref: "0.3.0"
+  symlinks:
+    "hub": "#{source_dir}"
